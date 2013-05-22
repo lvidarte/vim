@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/leonardo/tests/lettuce-py26-2/test/fact/features'
-let g:netrw_dirhist_2='/home/leonardo/src/olx/models-backend/trunk/tests'
-let g:netrw_dirhist_3='/home/leonardo/src/olx/models-backend/trunk/quijote'
-let g:netrw_dirhist_4='/home/leonardo/src/olx/models-backend/trunk/features'
-let g:netrw_dirhist_5='/home/leonardo/src/olx/models-backend/trunk/features/steps'
-let g:netrw_dirhist_6='/home/leonardo/src/olx/ma-imager/trunk/tests'
-let g:netrw_dirhist_7='/home/leonardo/src/olx/ma-imager/trunk/doc'
