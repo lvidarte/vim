@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/xleo/src/django-revista-contexto/contexto/flatpages/templates/flatpages'
+let g:netrw_dirhist_2='/home/xleo/src/4TEG/client'
+let g:netrw_dirhist_3='/home/xleo/src/4TEG/test'
+let g:netrw_dirhist_4='/home/xleo/.dropbox'

@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/xleo/src/lvidarte/go/src'
+let g:netrw_dirhist_2='/home/xleo/src/lvidarte/go/db'
+let g:netrw_dirhist_3='/home/xleo/src/lvidarte/go/tests'
+let g:netrw_dirhist_4='/home/xleo/src/lvidarte/go/src/Views'
+let g:netrw_dirhist_5='/var/olx/billing/src/Library/Billing/Exception'
+let g:netrw_dirhist_6='/home/xleo/Dropbox/Home/.vim/after'
+let g:netrw_dirhist_7='/home/xleo/Dropbox/Home/.vim/syntax'
+let g:netrw_dirhist_8='/home/xleo/Dropbox/Home/.vim/autoload'
