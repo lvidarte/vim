@@ -163,7 +163,7 @@ map <F2> :TlistToggle<CR>
 
 
 " ============================================================================
-" NERDTree <NERDTree.zip> v4.0.0 [2009-10-09]
+" NERDTree <NERDTree.zip> v4.2.0 [2011-12-28]
 " ============================================================================
 " http://www.vim.org/scripts/script.php?script_id=1658
 " :help NERDTree
@@ -213,8 +213,6 @@ nmap <C-n> :bnext!<CR>
 nmap <C-p> :bprevious!<CR>
 
 cnoremap qq Bclose
-""cnoremap wqq w<Bar>Bclose
-
 
 
 " ============================================================================
@@ -254,6 +252,11 @@ nnoremap <silent> sk     :FufFile<CR>
 " ============================================================================
 " http://www.vim.org/scripts/script.php?script_id=2441
 
+
+" ============================================================================
+" AutoClose.vim : This plugin enable an auto-close chars feature for you
+" ============================================================================
+" http://townk.github.io/vim-autoclose/
 
 
 " ############################################################################
