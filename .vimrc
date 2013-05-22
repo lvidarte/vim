@@ -273,16 +273,6 @@ nnoremap <silent> sk     :FufFile<CR>
 "cmap Q q
 "cmap WQ wq
 
-" Arrow keys disabled
-inoremap  <Up>     <NOP>
-inoremap  <Down>   <NOP>
-inoremap  <Left>   <NOP>
-inoremap  <Right>  <NOP>
-noremap   <Up>     <NOP>
-noremap   <Down>   <NOP>
-noremap   <Left>   <NOP>
-noremap   <Right>  <NOP>
-
 " Jump to another window
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
