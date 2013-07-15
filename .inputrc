@@ -16,6 +16,3 @@ set bell-style visible
 #set output-meta on
 #set show-all-if-ambiguous on
 #set visible-stats on
-
-# Edit using a single line:
-#set horizontal-scroll-mode On

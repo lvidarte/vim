@@ -104,6 +104,8 @@ autocmd FileType lua set omnifunc=luacomplete#Complete ai et ts=4 sts=4 sw=4
 
 " Twig
 autocmd BufNewFile,BufRead *.twig set filetype=html.twig
+" Arduino
+autocmd BufNewFile,BufReadPost *.ino,*.pde set filetype=cpp
 
 
 " ============================================================================
