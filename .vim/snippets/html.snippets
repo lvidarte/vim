@@ -2,9 +2,9 @@
 # BLOCK
 # ============================================================================
 snippet b
-	<${1:div}>${2}</$1>
-snippet bb
-	<${1:div}>
+	<${1:div}${2}>${3}</$1>
+snippet B
+	<${1:div}${2}>
 	</$1>
 snippet b_
 	<${1:div} class="${3}">${4}</$1>
@@ -12,7 +12,7 @@ snippet bb_
 	<${1:div} class="${3}">
 	</$1>
 snippet h
-	<h${1:1} class="${2}">${3}</h$1>
+	<h${1:1}${2}>${3}</h$1>
 snippet p
 	<p>${1}</p>
 snippet div
@@ -36,9 +36,7 @@ snippet strong
 # LINKS
 # ============================================================================
 snippet a
-	<a href="${1}" title="${2}">${3}</a>
-snippet a_
-	<a href="${1}" title="${2}" id="${3}" class="${4}">${5}</a>
+	<a href="${1}"${2}>${3}</a>
 snippet mailto
 	<a href="mailto:${1:email?subject=feedback}" title="${2}">${3:$1}</a>
 snippet mailto_
@@ -64,7 +62,7 @@ snippet ul
 # IMAGE
 # ============================================================================
 snippet img
-	<img src="${1}" alt="${2}" />${3}
+	<img src="${1}"${2}>${3}
 # ============================================================================
 # BR
 # ============================================================================
@@ -82,6 +80,8 @@ snippet form_
 	</form>
 snippet label
 	<label for="${1:id}">${2:label}</label>
+snippet in
+	<input type="${1:text}" name="${2}"${3}>
 snippet input
 	<input type="${1:text}" name="${2:}" id="${3:$2}" value="${4}" />${5}
 snippet textarea
