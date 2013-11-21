@@ -108,6 +108,10 @@ autocmd BufNewFile,BufRead *.twig set filetype=html.twig
 autocmd BufNewFile,BufReadPost *.ino,*.pde set filetype=cpp
 " Jade
 autocmd BufNewFile,BufRead *.jade set filetype=jade
+" HTML
+autocmd BufNewFile,BufRead *.html set filetype=html.javascript
+" HTML
+autocmd BufNewFile,BufRead *.js set filetype=javascript foldmethod=indent foldlevelstart=1 foldnestmax=2
 
 
 " ============================================================================
