@@ -108,6 +108,10 @@ autocmd BufNewFile,BufRead *.twig set filetype=html.twig
 autocmd BufNewFile,BufReadPost *.ino,*.pde set filetype=cpp
 " Jade
 autocmd BufNewFile,BufRead *.jade set filetype=jade
+" HTML
+autocmd BufNewFile,BufRead *.html set filetype=html.javascript
+" HTML
+autocmd BufNewFile,BufRead *.js set filetype=javascript foldmethod=indent foldlevelstart=1 foldnestmax=2
 
 
 " ============================================================================
@@ -155,15 +159,6 @@ endif
 " ############################################################################
 " BEGIN PLUGINS
 " ############################################################################
-
-
-" ============================================================================
-" TagList <taglist_46.zip> v4.6 [2013-02-27]
-" ============================================================================
-" http://www.vim.org/scripts/script.php?script_id=273
-" :help Tlist
-
-map <F2> :TlistToggle<CR>
 
 
 " ============================================================================
