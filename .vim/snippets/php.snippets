@@ -32,7 +32,8 @@ snippet doc_f
 	 * @return ${4:void}
 	 * @author ${5:`g:snips_author`}
 	 */
-	${1:public }function ${2:name}(${3}) {
+	${1:public }function ${2:name}(${3})
+	{
 		${6}
 	}
 snippet doc_h
@@ -80,8 +81,8 @@ snippet for
 		${4}
 	}
 snippet fun
-	${1:public }function ${2:name}(${3}) {
-		${4}
+	${1:public }function ${2:name}(${3})
+	{
 	}
 snippet get
 	$_GET['${1}']${2}
@@ -133,3 +134,5 @@ snippet wh
 	while (${1}) {
 		${2}
 	}
+snippet die
+	die('<pre>' . print_r(${1}, true) . '</pre>');

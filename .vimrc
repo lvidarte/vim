@@ -24,20 +24,9 @@ set hidden
 set encoding=utf-8
 
 " Colors
-if has('syntax') && &t_Co > 2
-
-    " Enable 256 colors?
-    if &term == "xterm-color" || &term == "xterm"
-        set t_Co=256
-        colorscheme notangotan
-    else
-        colorscheme default
-    endif
-
-    " Syntax Highlighting
-    syntax on
-
-endif
+set t_Co=256
+colorscheme notangotan
+syntax on
 
 " Auto char comment in new line
 set formatoptions+=r
@@ -298,6 +287,13 @@ nmap <silent> ,cc :set cursorcolumn!<CR>
 
 " Save as sudo
 ca w!! w !sudo tee "%"
+
+" PHP
+let mapleader=","
+map <leader>t :w\|:!phpunit --colors %<CR>
+map <leader>l :w\|:!php -S localhost:3005<CR>
+map <leader>c :w\|:!php -l %<CR>
+map <leader>f :w\|:!php-cs-fixer fix % --level=all<CR>
 
 
 " ============================================================================
